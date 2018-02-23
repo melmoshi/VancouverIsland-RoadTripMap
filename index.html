@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Population Map</title>
+        <meta name="description" content="Travel Map for Vancouver Island">
+        <script src='https://api.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css' rel='stylesheet' />
+        
+        <link rel="stylesheet" href="main.css">
+
+        
+    </head>
+    
+    <body>
+    
+        <script>
+        
+                var map = new mapboxgl.Map({
+                  container: 'map', // HTML container id
+                  style: 'mapbox://styles/mapbox/streets-v9', // style URL
+                  center: [-21.9270884, 64.1436456], // starting position as [lng, lat]
+                  zoom: 13
+                });
+        
+        </script>
+        
+    </body>
+    
+    
+</html>
